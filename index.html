@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+            margin-bottom: 30px;
+        }
+
+        .col {
+            flex: 1;
+            padding: 10px;
+        }
+
+        img.profile {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+
+        .contacts {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .contacts div {
+            text-align: center;
+        }
+
+        .contacts img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- First Row -->
+    <div class="row">
+        <div class="col">
+            <img src="SAMUEL.jpeg" alt="Profile Picture" class="profile">
+        </div>
+        <div class="col">
+            <h2>Biography</h2>
+            <p>
+                My name is Bbaale Samuel Muwanguzi. I am a BITC student at Kyambogo University with strong interest in system administration,
+             and database development. I enjoy learning new technologies and solving real-world problems.
+            </p>
+        </div>
+    </div>
+
+    <!-- Second Row -->
+    <div class="row">
+        <div class="col">
+            <h3>Schools</h3>
+            <ol>
+                <li>Kyambogo University, BITC, 2024-2027</li>
+                <li>Makerere College School, UACE, 2022-2023</li>
+                <li>Lubiri Secondary School, UCE, 2018-2021</li>
+            </ol>
+        </div>
+
+        <div class="col">
+            <h3>Skills</h3>
+            <ul>
+                <li>Database Management</li>
+                <li>Linux Administration</li>
+                <li>Networking</li>
+            </ul>
+
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Eating</li>
+                <li>Watching Movies</li>
+                <li>Playing Games</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Third Row -->
+    <div class="row">
+        <div class="col">
+            <h3>My Favourite Sports and Player</h3>
+            <table>
+                <tr>
+                    <th>Sport</th>
+                    <th>Player</th>
+                </tr>
+                <tr>
+                    <td>Football</td>
+                    <td>Bukayo Saka</td>
+                </tr>
+                <tr>
+                    <td>Formula 1</td>
+                    <td>Lewis Hamilton</td>
+                </tr>
+                <tr>
+                    <td>Basketball</td>
+                    <td>Micheal Jordan</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Fourth Row -->
+    <div class="row">
+        <div class="col contacts">
+            <div>
+                <img src="https://img.icons8.com/color/48/whatsapp.png" alt="WhatsApp">
+                <p>WhatsApp</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/color/48/facebook.png" alt="Facebook">
+                <p>Facebook</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/color/48/instagram-new.png" alt="Instagram">
+                <p>Instagram</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+
